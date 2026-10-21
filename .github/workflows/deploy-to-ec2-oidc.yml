@@ -1,6 +1,6 @@
 # This deploys our app to EC2 using SSM and S3 on the runner with OIDC.
 
-name: Deploy Node Todo to EC2
+name: Deploy Node App to EC2 using OIDC, S3, SSM
 
 on:
   # push:
