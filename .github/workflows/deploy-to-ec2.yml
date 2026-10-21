@@ -1,9 +1,9 @@
-
+# This deploys our app to EC2 using SSM and S3 on the runner with AWS Access and Secret Keys.
 name: Deploy Node Todo to AWS EC2
 
 on:
-  push:
-    branches: ["main"]
+  # push:
+  #   branches: ["main"]
   workflow_dispatch:
 
 permissions:
